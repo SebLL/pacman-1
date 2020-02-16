@@ -18,7 +18,7 @@ spec:
     spec:
       serviceAccount: pacmangit
       containers:
-      - image: docker.io/rfontain/pacman:v1
+      - image: docker.io/sebll/pacman:noir
         imagePullPolicy: Always
         name: pacmangit
         ports:
